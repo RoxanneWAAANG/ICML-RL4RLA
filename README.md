@@ -6,6 +6,7 @@
 
 
 ![img2](fig/logistic.svg)
+
 ***Figure 2:** Runtime vs. residual comparison on the logistic regression system. AlgoTune achieves significantly faster runtimes by directly invoking an optimized library solver (sklearn's LogisticRegression), while RL4RLA-discovered methods (Full Newton, Newton Sketch) require longer runtimes. All three methods achieve similar final residuals within the narrow range 0.1275–0.1425, indicating that in this setting AlgoTune's speed advantage comes entirely from library-level exploitation rather than algorithmic superiority. This illustrates the fundamental difference between the two approaches: AlgoTune optimizes implementation, while RL4RLA searches over algorithmic structure.*
 
 ![img3](fig/msd.png)
